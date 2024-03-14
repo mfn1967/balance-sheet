@@ -1,12 +1,15 @@
+/* reset html to border box */
 html {
     box-sizing: border-box;
 }
 
+/* Set font family and text color */
 body {
     font-family: sans-serif;
     color: #0a0a23;
 }
 
+/* Remove screenreader only text from document flow */
 span[class~="sr-only"] {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
